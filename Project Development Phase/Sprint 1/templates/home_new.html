@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Nutrition Viusalization System</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Food Image Recognition And Nutrition Viusalization System</h1>
+								<p>In this Project, An user-interactive system that takes food images as an input,
+									recognizes the food automatically and gives the nutritional-facts as
+									an output will save a lot of time.</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								
+								<li><a href="/test">DEMO</a></li>
+								<li><a href="#model">INTRO</a></li>
+								
+								
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+				<div id="main">
+					<!-- Work -->
+					<article id="model">
+						<h2 class="major">Work OF Project Model</h2>
+						<span class="image main"><img src="{{ url_for('static', filename='images/a1.jpg') }}">
+</span>
+						<p>  Each year, approximately 6,78,000 deaths are caused in the world due to unhealthy diet. A typical American diet is
+							too high in calories, fat, sugars, sodium, etc. Hence, people have
+							became more proactive when it comes to health matters. Services like
+							eating habit recorder and calorie/nutrition calculator have became
+							extremely popular. They can make users aware of problems like
+							obesity, cancer, diabetes, heart-disease, etc. that can be caused by
+							unhealthy diets. Most of these services require the users to
+							manually select a food item from a hierarchical menu which is a time
+							consuming process and not so user friendly.</p>
+						
+					</article>
+
+				</div>
+	
+
+					
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p>Sri_Ramanujar_Engineering_College</p> 
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script type=text/javascript src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+			<script type=text/javascript src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+			<script type=text/javascript src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+			<script type=text/javascript src="{{ url_for('static', filename='js/util.js') }}"></script>
+			<script type=text/javascript src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+			
+	</body>
+</html>
